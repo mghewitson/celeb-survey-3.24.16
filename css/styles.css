@@ -1,0 +1,43 @@
+
+button {
+  margin-top: 3%;
+  padding: 15px;
+  font-family: cursive;
+}
+
+body{
+  background-image: url(../img/bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.col-xs-6{
+  text-align: center;
+}
+
+.jumbotron{
+  color: #d40a78;
+  text-align: center;
+  background-color: #000;
+}
+
+.hidden-sloth, .hidden-character, .hidden-celeb1, .hidden-celeb2{
+  display: none;
+
+}
+
+img{
+  height: 500px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resultsLoc{
+  padding-top: 50px;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Survey!&copy;</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+
+    <div class="jumbotron">
+      <h1>Love celebrities? which one is right for you?!</h1>
+      <h1>Find out now with this quick quiz!</h1>
+    </div>
+
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-xs-6">
+            <h3>What is your gender?</h3>
+            <select class="form-control" id="gender">
+              <option value="0">- - Select - -</option>
+              <option value="1">Male</option>
+              <option value="1">Female</option>
+              <option value="1">Non-Binary</option>
+            </select>
+          </div>
+
+          <div class="col-xs-6">
+            <h3>What is your favorite candy?</h3>
+            <select class="form-control" id="candy">
+              <option value="0">- - Select - -</option>
+              <option value="3">PB Cups</option>
+              <option value="2">Chocolate, Straight up!</option>
+              <option value="1">Baby Ruth</option>
+              <option value="4">Twizzlers</option>
+              <option value="5">Gross, Sugar..</option>
+            </select>
+          </div>
+
+          <div class="col-xs-6">
+            <h3>Where do you see yourself in 5 years?</h3>
+            <select class="form-control" id="future">
+              <option value="0">- - Select - -</option>
+              <option value="2">Sipping Corona on a Mexican beach</option>
+              <option value="1">In a cave</option>
+              <option value="3">Bathroom</option>
+              <option value="4">I'm not sure, but wherever it is, turnt.</option>
+            </select>
+          </div>
+
+          <div class="col-xs-6">
+            <h3>Which presidential candidate do you like most?</h3>
+            <select class="form-control" id="pres">
+              <option value="0">- - Select - -</option>
+              <option value="2">Donald 'THE WALL' Trump</option>
+              <option value="3">Feelin' the Bern</option>
+              <option value="5">Ted 'Zodiac Killer' Cruz</option>
+              <option value="4">Thrillary</option>
+              <option value="1">What's a candidate?</option>
+            </select>
+          </div>
+        </div>
+
+          <button type="submit" class="btn btn-lg btn-success center-block">Show me the results!</button>
+      </form>
+    </div>
+    <div class="container resultsLoc">
+      <div>
+        <div id="answer1" class="hidden-character">
+          <h2>You got Glenn Beck!</h2>
+          <img src="img/beck.jpg" alt="Glenn Beck crying" />
+        </div>
+      </div>
+
+      <div>
+        <div id="answer2" class="hidden-celeb1">
+          <h2>You got Matt Damon!</h2>
+          <img src="img/damon.jpg" alt="a photo of matt damon" />
+        </div>
+      </div>
+
+      <div>
+        <div id="answer3" class="hidden-sloth">
+          <h2>Hey you guys!</h2>
+          <img src="img/sloth.jpg" alt="a photo of sloth" />
+        </div>
+      </div>
+
+      <div>
+        <div id="answer4" class="hidden-celeb2">
+          <h2>You got Mark Wahlberg!</h2>
+          <img src="img/wahlberg.jpg" alt="a photo of mark wahlberg" />
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
